@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_URL = 'http://localhost/usuarios/';
+const API_URL = 'http://localhost/digital-project/api/usuarios.php';
 
 // Iconos SVG personalizados
 const SearchIcon = () => (

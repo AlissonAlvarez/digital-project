@@ -12,6 +12,16 @@ import PorQueElegirnos from "./pages/PorQueElegirnos";
 import Premios from "./pages/Premios";
 import Dashboard from "./pages/Dashboard";
 import Usuarios from "./pages/app/Usuarios";
+import Campanas from "./pages/app/Campanas";
+import Clientes from "./pages/app/Clientes";
+import Alertas from "./pages/app/Alertas";
+import Anuncios from "./pages/app/Anuncios";
+import Conversiones from "./pages/app/Conversiones";
+import Cuentas from "./pages/app/Cuentas";
+import Metricas from "./pages/app/Metricas";
+import Plataformas from "./pages/app/Plataformas";
+import Reportes from "./pages/app/Reportes";
+import Segmentos from "./pages/app/Segmentos";
 import CrearCampania from "./pages/CrearCampania";
 import RevisarCampania from "./pages/RevisarCampania";
 import SolicitarCampania from "./pages/SolicitarCampania";
@@ -41,6 +51,16 @@ export default function App() {
               <Route path="/register" element={<Register />} />
               <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
               <Route path="/usuarios" element={<Usuarios/>} />
+              <Route path="/campanas" element={<Campanas/>} />
+              <Route path="/clientes" element={<Clientes/>} />
+              <Route path="/alertas" element={<Alertas/>} />
+              <Route path="/anuncios" element={<Anuncios/>} />
+              <Route path="/conversiones" element={<Conversiones/>} />
+              <Route path="/metricas" element={<Metricas/>} />
+              <Route path="/plataformas" element={<Plataformas/>} />
+              <Route path="/reportes" element={<Reportes/>} />
+              <Route path="/segmentos" element={<Segmentos/>} />
+              <Route path="/cuentas" element={<Cuentas/>} />
               <Route path="/crear-campania" element={<PrivateRoute><CrearCampania /></PrivateRoute>} />
               <Route path="/revisar-campania" element={<PrivateRoute><RevisarCampania /></PrivateRoute>} />
               <Route path="/solicitar-campania" element={<PrivateRoute><SolicitarCampania /></PrivateRoute>} />
